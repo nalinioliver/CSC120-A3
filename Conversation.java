@@ -49,7 +49,7 @@ class Conversation {
           String forloopInput = forloop.nextLine();
     /** Adds user input in the "for" loop to the array known as "transcript" */
           transcript.add(forloopInput);
-    /** Saves the index "length" (i.e- highest index number) by taking the length of the array and subtracting 1 (since it starts at 0). This is saved under "randomindex" variable, which will allow for a random selection from the canned responses array list (based on the callandresponse object saved with the "Random" method)  */
+    /** Saves the  number of objects based on index number ( i.e- finding the highest index number). This is done by taking the length of the array and subtracting 1 (since it starts at 0). This is saved under "randomindex" variable, which will allow for a random selection from the canned responses array list (based on the callandresponse object saved with the "Random" method)  */
           Integer randomindex = callandresponse.nextInt(canned.length - 1);
     /** Prints out one of the strings in the canned responses array at random */
           System.out.println(canned[randomindex]);
