@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Creates a welcome message for the user, and then prompts a user input for the number of conversation rounds. Afterwards, the user undergoes a conversation for the number of rounds before the transcript of the conversation is printed.
  * @author Nalini Oliver
- * Resources: Jordan Crouser's office hours (Monday 2/13), CSC 120 TA Hours (Monday 2/13 and Thursday 2/16), W3 schools "Java ArrayList"
+ * Resources: Jordan Crouser's office hours (Monday 2/13), CSC 120 TA Hours (Monday 2/13 and Thursday 2/16), W3 schools "Java ArrayList", Dakota (discussed this assignment during class)
  */
 class Conversation {
   public static void main(String[] arguments) {
